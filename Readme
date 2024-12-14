@@ -1,6 +1,9 @@
 Text Data - Sentiment Analysis
+
 Sprint 1: Creating a DataFrame from Raw Text Files
+
 Overview
+
 This sprint involves importing raw text data, organizing it into a structured DataFrame, and performing initial data exploration.
 
 Import Libraries: Libraries such as pandas, numpy, and matplotlib are used for data manipulation and visualization.
@@ -8,17 +11,22 @@ Import Libraries: Libraries such as pandas, numpy, and matplotlib are used for d
 Extracting and Loading Data:
 
 The raw data, stored in a zip file, is extracted.
+
 Directory traversal techniques are used to load text files and populate a DataFrame.
+
 Exploratory Data Analysis (EDA):
 
 Data exploration is conducted to understand key patterns, such as the distribution of star ratings and common words in reviews.
+
 Visualization tools like bar plots and word clouds highlight frequently occurring terms and the overall sentiment.
-Insights from EDA
+
+Insights from EDA:-
 Word Frequency: Words like "the," "and," "to" are common and need to be removed (stop word removal).
 Review Distribution: A significant majority of the reviews are positive, with five-star ratings being the most common.
 Word Clouds: Highlight key product-related terms such as "taste," "love," and "product," which can provide insights into customer sentiment.
 Sprint 2: Building a Sentiment Analysis Model
 Steps:
+
 Segregate Input and Output:
 
 Input data comprises review texts, while outputs include corresponding sentiment labels (e.g., positive/negative or star ratings).
